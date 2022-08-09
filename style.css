@@ -1,0 +1,355 @@
+       /* start root element*/
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            font-family: sans-serif;
+        }
+        /* end of root element */
+
+        /* start of nav bar */
+        nav{
+            display: flex;
+            align-items: center;
+            margin: 0;
+            box-shadow: 0px 0px 10px ;
+        }
+        .logo{
+            width:91px;
+          height:34px;
+         }
+        nav div{
+           margin: 8px 8px ;
+        }
+        .bar input{
+            flex: 1;
+            outline: none;
+            border: none;
+        }
+        .search{
+            
+            padding: 10px;
+            display: flex;
+            flex: 1;
+            border: 1px solid black;
+            border-radius: 30px;
+        }
+        .bar{
+            display: flex;
+            flex: 1;
+        }
+        .bar input{
+            flex: 1;
+        }
+        .head-img{
+            margin-top:0px ;
+        }
+        nav button{
+            border: hidden;
+            background-color: white;
+        }
+        .lo{
+            background-color: white;
+            border: 1px solid black;
+            color: black;
+            padding: 10px 22px;
+            text-align: center;
+        }
+        .si{  /*sign*/
+            background-color: black;
+            border: 1px solid black;
+            color: white;
+            padding: 10px 22px;
+            text-align: center;
+        }
+        .small, .sma{
+            display: none;
+        }
+        .tag.big {
+            float: left;
+            position: absolute;
+            left: 200px;
+            top: 120px;
+            background-color: white;
+            padding: 5px;
+            color: black;
+        }
+       .tag.sma, .photo.sma {
+            float: left;
+            position: relative;
+            left: 100px;
+            background-color: white;
+            padding: 5px;
+            color: black;
+        }
+        
+        .hoverblue:hover {
+            cursor: pointer;
+            color: #5624d0;
+            transition-duration: 250ms;
+        }
+        /* end of nav bar */
+
+        /* start of header */
+        .card img{
+            width:90%;
+            margin-left: 5%;
+        }
+        .card_info{
+            margin-left: 5%;
+        }
+        .card_info h2{
+           font-size: 30px;
+           margin: 0;
+        }
+        .card_info p{
+            font-family: sans-serif;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        /* end of header */
+
+        /* start of first-section -> cources and explore section */
+        .first-section{
+            font-family: sans-serif;
+            margin-left: 5% ;
+           }
+        .first-section-h3{
+            font-family: serif;
+            font-size: 25px;
+            margin-bottom: 0px;
+           }
+        .first-sec-h3{
+            margin-block-start: 10px;
+           }
+        .card2-h2{
+            margin-top: 10px;
+           }
+        .course-photo{
+            margin-top: 10px;
+           }
+        section {
+            width: 95%;
+        }
+        .ex-photo{
+            width:240px;
+            height : 135px;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        li {
+            font-weight: bold;
+            margin-right: 12px;
+            color: #6a6f73;
+        }
+        
+        li:hover {
+            color: black;
+            cursor: pointer;
+        }
+        
+        .explore {
+            padding: 10px;
+            color: black;
+            background-color: white;
+            border: 1px solid black;
+            font-weight: bold;
+        }
+        
+        .explore:hover {
+            cursor: pointer;
+            background-color: aliceblue;
+        }
+        
+        .courses {
+            width: fit-content;
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        
+        .course {
+            width: 240px;
+            margin-bottom: 15px;
+            margin-right: 10px;
+        }
+        .card2 {
+            margin-right: 5%;
+            border: 1px solid gray;
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .courseDesc{
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+        .course p{
+            font-size: 14px;
+            color: gray;
+        }
+        .sale{
+            color: gray;
+            text-decoration: line-through;
+        }
+        .price{
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+        /* start of second section -> top categories */
+        .second-section h1{
+            margin: 20px 5%;
+            font-family: sans-serif;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .img-in-container{
+            margin: 10px;
+        }
+        .img-in-container div a{
+            background-color: white;
+            color: black;
+            text-decoration: none;
+        }
+        .second-section a img:hover{
+            width: 95%;
+            padding: 2.5%;
+            transition-duration: 250ms;
+        }
+        .cat-list{
+            overflow: hidden;
+        }
+        .img-in-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* end of second section -> top categories */
+
+        /* start of footer */
+        .foot{
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+        }
+        .foot ul{
+            padding: 10px;
+            background-color: black;
+            display: block;
+            margin: 0px 30px;
+        }
+        .foot ul li{
+            padding: 5px;
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 100;
+            background-color: black;
+            color: white;
+        }
+        .button{
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            justify-content: flex-end;
+            background-color: black;
+        }
+        .foot button{
+            margin: 15px 30px;
+            right: 10px;
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            width: 80px;
+            height: 40px;
+        }
+        .bottom-logo{
+            margin: 10px 0 0 0;
+            background-color: black;
+        }
+        footer img {
+            background-color: black;
+            position: relative;
+            bottom: 15px;
+            left: 10px;
+        }
+        footer a{
+            background-color: black;
+            color: white;
+            text-decoration: none;
+        }
+        footer{
+            background-color: black;
+        }
+        footer a:hover {
+            text-decoration: underline;
+            transition-duration: 250ms;
+        }
+        /* end of footer */
+
+
+        /* Media ========================= */
+
+
+        @media screen and (max-width:800px) {
+            .small, .sma{
+                display: block;
+            }
+            .big{
+                display: none;
+            }
+            div.search{
+                display: none;
+            }
+            nav{
+                justify-content: space-between;
+            }
+            .foot{
+                flex-direction: column;
+            }
+
+        }
+
+        /*header*/        
+        @media (min-width: 915px) {
+             .card{
+                position: relative;
+                padding: 0px;
+            }
+
+             .card_info{
+                background-color: white;
+                padding: 10px;
+                padding-bottom: 0px;
+                width: 350px;
+                position: absolute;
+                top: 60px;
+                left: 5%;
+                margin-left: 6%;
+                
+            }
+        }
+
+    @media (max-width:1080px){
+        .udemy-bus{
+            display: none;
+        }
+    }
+
+    @media (max-width:920px){
+        .teach{
+            display: none;
+        }
+    }
