@@ -7,7 +7,11 @@
             font-family: sans-serif;
         }
         /* end of root element */
-
+        /* general */
+        button{
+            cursor: pointer;
+        }
+        /* end of general */
         /* start of nav bar */
         nav{
             display: flex;
