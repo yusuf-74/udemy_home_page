@@ -7,6 +7,10 @@
             font-family: sans-serif;
         }
         /* end of root element */
+        body{
+            min-width: 400px;
+
+        }
         /* general */
         button{
             cursor: pointer;
@@ -189,8 +193,7 @@
         }
         .course {
             width: 240px;
-            margin-bottom: 15px;
-            margin-right: 10px;
+            margin: 0px auto 15px auto ;
             overflow: hidden;
         }
         .card2 {
