@@ -23,6 +23,12 @@
             width:91px;
           height:34px;
          }
+         .left-icons{
+               display: flex;
+         }
+         .left-icons i{
+            margin:0px 5px;
+         }
         nav div{
            margin: 8px 8px ;
         }
@@ -143,7 +149,8 @@
         ul {
             list-style: none;
             display: flex;
-            flex-wrap: wrap;
+             flex-wrap: wrap; 
+            overflow: hidden;
             margin: 0px;
             padding: 0px;
         }
@@ -173,17 +180,18 @@
         }
         
         .courses {
-            width: fit-content;
+            /* width: fit-content; */
             margin-top: 15px;
-            display: flex;
+            display: grid;
             justify-content: space-evenly;
-            flex-wrap: wrap;
+            grid-template-columns: repeat(auto-fill,minmax(240px,1fr)) ;
+            overflow: hidden;
         }
-        
         .course {
             width: 240px;
             margin-bottom: 15px;
             margin-right: 10px;
+            overflow: hidden;
         }
         .card2 {
             margin-right: 5%;
@@ -313,6 +321,10 @@
             }
             .big{
                 display: none;
+            }
+            .list-icon{
+                width: 48px;
+                height: 100%;
             }
             div.search{
                 display: none;
